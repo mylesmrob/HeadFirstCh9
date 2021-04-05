@@ -11,9 +11,9 @@ called a stack frame. The frame is removed once it has completed its action(s).
 variables is used.<br />
 - The instance variables of an object are pushed onto the heap, since they live
 within it. If an object itself is created as an instance, such as in a HAS-A
-relationship, it is simply called through reference.<br \>
+relationship, it is simply called through reference.
 - Having more than one constructor in a class means that you have overloaded
 constructors. No two constructors within a class can be identical, but are
 allowed to have differing orders (such as (String, int) and (int, String) being
-dissimilar.<br />
+dissimilar.
 - 
